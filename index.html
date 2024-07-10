@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUX PENGUIN</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #00ff00;
+            text-align: center;
+            padding: 50px;
+            overflow: hidden;
+            margin: 0;
+            height: 100vh;
+            position: relative;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            z-index: 1;
+            position: relative;
+        }
+        h1 {
+            color: #00ff00;
+        }
+        img {
+            width: 200px;
+            height: auto;
+        }
+        .background-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: 0;
+            color: #00ff00;
+            opacity: 0.2;
+            white-space: nowrap;
+        }
+        .background-text span {
+            display: block;
+            font-size: 18px;
+            line-height: 1.5;
+            animation: moveText 20s linear infinite;
+        }
+        @keyframes moveText {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(-100%);
+            }
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button-container a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #28a745; /* Green color */
+            transition: background-color 0.3s;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .button-container a:hover {
+            opacity: 0.8;
+        }
+        .button-container a::before {
+            content: attr(data-code);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-text">
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+        <span>Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting - Tux Penguin - Programming - Linux - Open Source - Code - Debugging - Scripting</span>
+    </div>
+    <div class="container">
+        <h1>Tux Penguin</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Tux Penguin">
+        <div class="button-container">
+            <a href="https://t.me/+xDXUhRsZW11iNmRl" target="_blank" class="telegram" data-code="Telegram = https://telegram.org;">Telegram</a>
+            <a href="https://x.com/TuxPenguintux" target="_blank" data-code="Twitter = https://twitter.com;">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
